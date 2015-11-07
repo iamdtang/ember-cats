@@ -1,0 +1,24 @@
+{
+  "cats": [
+    {
+      "id": 1,
+      "name": "Tubby",
+      "adopted_at": "2015-09-25T21:44:24.6496202Z"
+    },
+    {
+      "id": 2,
+      "name": "Biscuit",
+      "adopted_at": "2015-10-21T23:30:54.217Z"
+    },
+    {
+      "id": 3,
+      "name": "Chester",
+      "adopted_at": "2015-09-29T21:37:33.1677559Z"
+    },
+    {
+      "id": 4,
+      "name": "Fiona",
+      "adopted_at": "2015-10-07T19:24:36.763Z"
+    }
+  ]
+}

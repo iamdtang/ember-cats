@@ -2,6 +2,8 @@ import { moduleForModel, test } from 'ember-qunit';
 import Pretender from 'pretender';
 import Ember from 'ember';
 
+(function() {
+
 var server;
 
 moduleForModel('cat', 'Unit | Serializer | cat', {
@@ -58,3 +60,5 @@ test('belongsTo relationship uses foreign keys in the format XXX_id', function(a
     assert.equal(cats.objectAt(0).get('home.address'), '123 Ocean Boulevard, Miami, FL');
   });
 });
+
+})();
