@@ -6,7 +6,6 @@ moduleFor('controller:dashboard', {
   // needs: ['controller:foo']
 });
 
-// Replace this with your real tests.
 test('it shows the latest cat added to my family', function(assert) {
   var controller = this.subject();
 
